@@ -15,6 +15,7 @@ header{
 	background-color: #EC715F;
 }
 .header-box{
+	line-height: 70px;
 	width: 1024px;
 	height: 100%;
 	margin: 0 auto;
@@ -35,7 +36,8 @@ nav{
 .nav-list-item{
 	list-style: none;
 	display: inline-block;
-	margin: 27px 27px 30px 30px;
+	padding-right: 30px;
+	padding-left: 30px;
 	font-size: 16px;
 	color: #FAFAFA;
 }
@@ -381,27 +383,26 @@ nav{
 footer{
 	width: 100%;
 	height: 60px;
+	line-height: 60px;
 	text-align: center;
 	background-color: #EC715F;
 }
 .footer-text{
-	padding-top: 22px;
 	font-size: 16px;
 	text-align: center;
 	margin: 0 auto;
 	color: #FAFAFA
 }
-@media screen and (max-width:768px){
+@media screen and (max-width:767px){
 	header{
-		width: 90%;
+		width: 100%;
 		height: 50px;
 		margin: 0 auto;
-	margin-left: 5%;
-	margin-right: 5%;
 	}
 	.header-box{
-		width: 90%;
-		margin: 0 auto:
+		width: 100%;
+		line-height: 50px;
+		margin: 0 auto;
 	}
 	.logo{
 	width: 100px;
@@ -413,6 +414,7 @@ footer{
 		height: 44px;
 		float: right;
 		border: solid #FAFAFA;
+		margin-right: 8px;
 		margin-top: 3px;
 		margin-bottom: 3px;
 		display: inline-grid;
@@ -444,10 +446,8 @@ footer{
 		background-image: url(img/code.png);
 		background-size: cover;
 	    background-position: center;
-	    width: 90%;
+	    width: 100%;
 	    height: 650px;
-	    margin-right: 5%;
-	    margin-left: 5%;
 	}
 	.main-visual-name{
 	padding-top: 200px;
@@ -462,27 +462,25 @@ footer{
 	text-align: center;
 	}
 	.portfolio{
-	width: 90%;
+	width: 100%;
 	height: auto;
 	background-color: #ECEFF1;
 	margin: 0 auto;
-	margin-right: : 5%;
-	margin-left: : 5%;
     }
     .portfolio-box{
-	width: 90%;
+	width: 100%;
 	height: 100%;
 	margin: 0 auto;
     }
     .portfolio-item{
 	width: 100%;
-	margin-left: 200px;
 	float: none;
 	display: inline-grid;
     }
     .portfolio-item img {
 	width: 300px;
-	height: 250px;
+	height: 260px;
+	margin: 0 auto;
 	/*display: block;*/
 	float: none;
     }
@@ -493,76 +491,100 @@ footer{
 	display: none;
     }
     .portfolio-image2{
+padding-bottom: 10px;
 	margin-right: 0px;
+	margin-bottom:  0px;
 	margin-left: 0px;
-	margin-bottom: 0px;
-}
+    }
+    .portfolio-image4{
+    padding-bottom: 10px;
+    }
     .portfolio-image5{
 	display: none;
     }
     .feature{
-	width: 90%;
-	margin-left: 5%;
-	margin-right: 5%;
+	width: 100%;
 	height: auto;
 	margin: 0 auto;
     }
     .feature-box{
-	width: 90%;
+	width: 100%;
 	height: 100%;
 	margin: 0 auto;
     }
     .feature-icon{
-	float: none;
+    width: 100%;
 	margin: 0 auto;
-	display: inline
     }
 
     .feature-icon-list1{
-    	margin-left: 130px;
+    	float: none;
+    	margin: 0 auto;
     }
     .feature-icon-list2{
-    	margin-left: 130px;
+    	padding-top: 10px;
+    	float: none;
+    	margin: 0 auto;
     }
     .feature-icon-list3{
-    	margin-left: 130px;
+    	float: none;
+    	margin: 0 auto;
     }
     .profile{
-	width: 90%;
+	width: 100%;
 	height: auto;
-	margin-right: 5%;
-	margin-left: 5%;
 	background-color: #ECEFF1;
     }
     .profile-box{
-	width: 90%;
+	width: 100%;
 	height: auto;
 	margin: 0 auto;
     }
     .profile-box2{
-	width: 90%;
-	float: none;
+	width: 100%;
+    }
+    .profile-image{
+    float: none;
+    }
+    .portfolio-date{
+    width: 100%;
+    float: none;
+    }
+    .portfolio-date-name1{
+    text-align: center;
+    }
+    .portfolio-date-text1{
+    text-align: center;
+    }
+    .portfolio-date-name2{
+    text-align: center;
+    }
+    .portfolio-date-text2{
+    text-align: center;
     }
     .contact{
-	width: 90%;
+	width: 100%;
 	height: auto;
-	padding-right: 5%;
-	padding-left: 5%;
     }
    .contact-box{
-	width: 90%;
+	width: 100%;
 	height: auto;
 	margin: 0 auto;
     }
     .contact-box2{
 	float: none;
-	width: 90%;
-	margin-left:70px;
+	width: 100%;
+    margin: 0 auto;
+    }
+    .contact-date1{
+    float:none;
+    }
+    .contact-date2{
+    float: none;
     }
     footer{
-	width: 90%;
+	width: 100%;
 	height: 60px;
-	margin-left: 5%;
-	margin-right: 5%;
+	line-height: 60px;
     }
 
