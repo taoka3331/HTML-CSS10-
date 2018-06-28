@@ -553,8 +553,9 @@ footer{
     .portfolio-image4{
     width: 300px;
     height: 250px;
-    margin-bottom: : 10px;
-    margin: 0 auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin: 10px auto;
     }
     .portfolio-image5{
 	display: none;
@@ -650,6 +651,7 @@ footer{
     }
     .contact-date1{
     float:none;
+    width: auto;
     }
     .contact-date1-headline{
     text-align: center;
@@ -665,6 +667,7 @@ footer{
     }
     .contact-date2{
     float: none;
+    width: auto;
     }
     .contact-date2-headline{
     text-align: center;
