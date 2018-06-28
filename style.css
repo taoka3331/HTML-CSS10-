@@ -25,6 +25,9 @@ header{
 	width: 200px;
 	height: 70px;
 	float: left;
+	background-image: url(img/logo.png);
+	background-size: cover;
+	background-position: center;
 }
 
 nav{
@@ -102,28 +105,67 @@ nav{
 	margin: 0 auto;
 	width: 920px;
 }
-.portfolio-item img {
+.portfolio-image1{
 	width: 300px;
 	height: 250px;
-	/*display: block;*/
+	background-image: url(img/sketch.jpg);
+	background-size: cover;
+	background-position: center;
 	float: left;
-}
-.portfolio-image1{
-	margin-bottom: 10px;
-}
-.portfolio-image2{
-	margin-right: 10px;
-	margin-left: 10px;
-	margin-bottom: 10px;
-}
-.portfolio-image3{
 	margin-bottom: 10px;
 }
 
-.portfolio-image5{
+.portfolio-image2{
+	width: 300px;
+	height: 250px;
+	background-image: url(img/websuku.png);
+	background-size: cover;
+	background-position: center;
+	float: left;
+	margin-bottom: 10px;
 	margin-left: 10px;
 	margin-right: 10px;
 }
+
+.portfolio-image3{
+	width: 300px;
+	height: 250px;
+	background-image: url(img/write.jpg);
+	background-size: cover;
+	background-position: center;
+	float: left;
+	margin-bottom: 10px;
+}
+
+.portfolio-image4{
+	width: 300px;
+	height: 250px;
+	background-image: url(img/webcamp.png);
+	background-size: cover;
+	background-position: center;
+	float: left;
+}
+
+.portfolio-image5{
+	width: 300px;
+	height: 250px;
+	background-image: url(img/talk.jpg);
+	background-size: cover;
+	background-position: center;
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.portfolio-image6{
+	width: 300px;
+	height: 250px;
+	background-image: url(img/webcamp-mother.png);
+	background-size: cover;
+	background-position: center;
+	float: left;
+}
+
 .feature{
 	width: 100%;
 	height: auto;
@@ -266,6 +308,10 @@ nav{
 	width: 250px;
 	height: 250px;
 	border-radius: 500px;
+	margin: 0 auto;
+	background-image: url(img/my-icon.jpg);
+	background-size: cover;
+	background-position: center;
 }
 .portfolio-date{
 	width: 512px;
@@ -338,23 +384,28 @@ nav{
 	margin: 0 auto;
 	float: left;
 }
+.contact-date1-minibox{
+	width: 140px;
+	height: 100%;
+	margin: 0 auto;
+}
 .contact-date1-headline{
 	font-size: 20px;
-	text-align: center;
+	text-align: left;
 }
 .contact-date1-text{
 	padding-top: 5px;
-	text-align: center;
+	text-align: left;
 	text-decoration: underline;
 }
 .contact-date1-headline2{
 	padding-top: 20px;
 	font-size: 20px;
-	text-align: center;
+	text-align: left;
 }
 .contact-date1-text2{
 	padding-top: 5px;
-	text-align: center;
+	text-align: left;
 	text-decoration: underline;
 }
 .contact-date2{
@@ -363,15 +414,20 @@ nav{
 	margin: 0 auto;
 	float: left;
 }
+.contact-date2-minibox{
+	width: 200px;
+	height: 100%;
+	margin:0 auto;
+}
 .contact-date2-headline{
-	text-align: center;
+	text-align: left;
 	font-size: 20px;
 }
 .contact-date2-icon{
 	padding-top: 5px;
 	margin: 0 auto;
-	width: 400px;
 	height: auto;
+	text-align: left;
 }
 .contact-date2-icon i{
 	font-size: 50px;
@@ -410,14 +466,14 @@ footer{
 	float: left;
     }
 	.menu-trigger{
-		width: 30px;
-		height: 44px;
-		float: right;
-		border: solid #FAFAFA;
-		margin-right: 8px;
-		margin-top: 3px;
-		margin-bottom: 3px;
-		display: inline-grid;
+	width: 30px;
+	height: 44px;
+	float: right;
+	border: solid #FAFAFA;
+	margin-right: 8px;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	display: inline-grid;
 	}
 	.menu-bar{
 	height: 3px;
@@ -462,59 +518,69 @@ footer{
 	text-align: center;
 	}
 	.portfolio{
-	width: 100%;
+	width: 100%%;
 	height: auto;
 	background-color: #ECEFF1;
 	margin: 0 auto;
     }
     .portfolio-box{
-	width: 100%;
+	width: 90%;
 	height: 100%;
 	margin: 0 auto;
+	margin-left: 5%;
+	margin-right: 5%;
     }
     .portfolio-item{
 	width: 100%;
 	float: none;
 	display: inline-grid;
     }
-    .portfolio-item img {
-	width: 300px;
-	height: 260px;
-	margin: 0 auto;
-	/*display: block;*/
-	float: none;
-    }
     .portfolio-image1{
 	display: none;
+    }
+    .portfolio-image2{
+    width: 300px;
+    height: 250px;
+    margin-top: : 10px;
+	margin-right: 0px;
+	margin-bottom:  0px;
+	margin-left: 0px;
+	margin: 0 auto;
     }
     .portfolio-image3{
 	display: none;
     }
-    .portfolio-image2{
-padding-bottom: 10px;
-	margin-right: 0px;
-	margin-bottom:  0px;
-	margin-left: 0px;
-    }
     .portfolio-image4{
-    padding-bottom: 10px;
+    width: 300px;
+    height: 250px;
+    margin-bottom: : 10px;
+    margin: 0 auto;
     }
     .portfolio-image5{
 	display: none;
     }
+    .portfolio-image6{
+    width: 300px;
+    height: 250px;
+    margin-bottom: 90px;
+    margin: 0 auto;
+    }
+
     .feature{
 	width: 100%;
 	height: auto;
 	margin: 0 auto;
     }
     .feature-box{
-	width: 100%;
+	width: 90%;
 	height: 100%;
 	margin: 0 auto;
+	margin-left: 5%;
+	margin-right: 5%;
     }
     .feature-icon{
     width: 100%;
-	margin: 0 auto;
+    height: auto;
     }
 
     .feature-icon-list1{
@@ -536,15 +602,18 @@ padding-bottom: 10px;
 	background-color: #ECEFF1;
     }
     .profile-box{
-	width: 100%;
+	width: 90%;
 	height: auto;
 	margin: 0 auto;
+	margin-left: 5%;
+	margin-right: 5%;
     }
     .profile-box2{
 	width: 100%;
     }
     .profile-image{
     float: none;
+    width: 100%;
     }
     .portfolio-date{
     width: 100%;
@@ -567,9 +636,12 @@ padding-bottom: 10px;
 	height: auto;
     }
    .contact-box{
-	width: 100%;
+	width: 90%;
 	height: auto;
 	margin: 0 auto;
+	margin-left: 5%;
+	margin-right: 5%;
+
     }
     .contact-box2{
 	float: none;
@@ -579,9 +651,29 @@ padding-bottom: 10px;
     .contact-date1{
     float:none;
     }
+    .contact-date1-headline{
+    text-align: center;
+    }
+    .contact-date1-text{
+    text-align: center;
+    }
+    .contact-date1-headline2{
+    text-align: center;
+    }
+    .contact-date1-text2{
+    text-align: center;
+    }
     .contact-date2{
     float: none;
     }
+    .contact-date2-headline{
+    text-align: center;
+    }
+    .contact-date2-icon{
+    text-align: center;
+    }
+
+  
     footer{
 	width: 100%;
 	height: 60px;
